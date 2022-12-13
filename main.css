@@ -1,0 +1,20 @@
+.addCart {
+    transition-duration: 0.8s;
+}
+
+.addCart:active {
+    transform: scale(0.95);
+}
+
+.card-body {
+    position: relative;
+}
+
+.plusOne {
+    position: absolute;
+    bottom: 6px;
+    right: 14px;
+    font-size: 19px;
+    font-weight: 600;
+    color: #212529;
+}
